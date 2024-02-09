@@ -2,20 +2,52 @@
 
 @media screen and (min-width:768px) and (max-width:1024px) {
     body {
-        background: linear-gradient(to bottom, #5F2C82, #4B959B);
         height: 75vh;
+        background: linear-gradient(to bottom, #5F2C82, #4B959B);
     }
     #imagem {
         float: left;
-        width: 30%;
-        height: 230px;
+        width: 33%;
+        height: 100%;
         border-radius: 20px 0px 0px 20px;
         background-position: center;
     }
     #formulario {
         height: 200px;
-        margin-top: 150px;    
+        margin-top: 150px;   
     }
 
-    
+    #formulario>p {
+        padding-left: 220px;
+        padding-bottom: 10px;
+    }
+
+    .caixa {
+        float: right;
+        width: 66%;
+        margin: 2px;
+    }
+    .caixa>input {
+        width: 88%;
+    }
+    #login {
+        min-width: 640px;
+        max-width: 1000px;
+        height: 340px;
+    }
+    #entrar {
+        width: 66%;
+        margin-left: 8px;
+        margin-top: 2px;
+    }
+    #esqsenha {
+        margin-left: 8px;
+        width: 65.5%;
+        float: left;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+
 }
