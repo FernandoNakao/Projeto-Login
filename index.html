@@ -4,32 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.5.0/css/all.css">
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/mediaQ.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.5.0/css/all.css">
 </head>
 <body>
     <main>
-        <section id="login">
-            <div id="imagem">
-            </div>
-            <div id="mensagem">
-                <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente! Faça login para acessar sua conta a poder fazer as configurações no seu ambiente.</p>
-            </div>
+    <section id="login">
+        <div id="imagem"></div>
+        <div id="formulario">
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
             <form action="login.php" method="post">
-                <p class="caixa">
+                <p>
                     <label for="iemail"><i class="fa-solid fa-user"></i></label>
-                    <input type="email" name="email" id="iemail" placeholder="  Seu email" required>
+                    <input type="email" name="email" id="iemail" placeholder=" Seu email" required>
                 </p>
-                <p class="caixa">
+                <p>
                     <label for="isenha"><i class="fa-solid fa-lock"></i></label>
-                    <input type="password" name="senha" id="isenha" placeholder="  Sua senha" required minlength="8" >
-                </p>       
-                        <input type="submit" value="Entrar" id="entrar"><br>
-                        <a href="" id="esqsenha">Esqueci minha senha<i class="fa-solid fa-envelope" id="icone"></i> </a>
+                    <input type="password" name="senha" id="isenha" placeholder=" Sua senha" required>
+                </p>
+                <input type="submit" value="Entrar">
+                <a href="">Esqueci minha senha<i class="fa-solid fa-envelope"></i></a>
             </form>
-        </section>
+        </div>
+    </section>
     </main>
 </body>
 </html>
