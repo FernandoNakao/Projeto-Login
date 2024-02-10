@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:768px) and (max-width:1024px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
     body {
         height: 75vh;
         background: linear-gradient(to bottom, #5F2C82, #4B959B);
@@ -38,16 +38,61 @@
     #entrar {
         width: 66%;
         margin-left: 8px;
-        margin-top: 2px;
+        margin-top: 5px;
     }
-    #esqsenha {
-        margin-left: 8px;
-        width: 65.5%;
-        float: left;
+    a {
+        padding-left: 15px;
     }
 }
 
-@media screen and (min-width:1024px) {
 
+
+
+@media screen and (min-width:1024px) {
+    body {
+        height: 75vh;
+        background: linear-gradient(to bottom, #5F2C82, #4B959B);
+    }
+    #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+        background-position: center;
+    }
+    #formulario {
+        height: 200px;
+        margin-top: 150px;   
+    }
+
+    #formulario>p {
+        padding-bottom: 10px;
+        padding-right: 480px;
+    }
+
+    #formulario>h1 {
+        font-size: 2em;
+    }
+
+    .caixa {
+        float: left;
+        width: 48%;
+        margin: 2px;
+    }
+    .caixa>input {
+        width: 89%;
+    }
+    #login {
+        min-width: 950px;
+        height: 340px;
+    }
+    #entrar {
+        width: 48%;
+        margin-left: 2px;
+        margin-top: 5px;
+    }
+    a {
+        padding-left: 10px;
+    }
 
 }

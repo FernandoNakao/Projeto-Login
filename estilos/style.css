@@ -83,18 +83,12 @@ i {
 }
 
 a {
-    padding: 8px 25%;
-    text-align: center;
-    border: 2px solid #53AAA7;
-    border-radius: 8px;
-    height: 35px;
-    text-decoration: none;
     color: #3e7b80;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 7px;
 }
 
-#esqsenha {
-    margin-bottom: 15px;
-}
 
 a>i {
     font-size: 15px;
@@ -102,5 +96,5 @@ a>i {
 }
 
 a:hover {
-    background-color: #9cdee2;
+    color: #53AAA7;
 }
