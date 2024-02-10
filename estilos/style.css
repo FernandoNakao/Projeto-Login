@@ -44,27 +44,19 @@ body {
     padding-bottom: 10px;
 }
 
-
-.caixa {
-    background-color: #5F2C82;
-    border-radius: 10px;
-    width: 100%;
-    margin: 7px 0px 7px;
-}
-
 .caixa>input {
+    border: 3px solid #5F2C82;
+    border-radius: 15px;
+    margin: 7px 0px 0px;    
     height: 39px;
-    border-radius: 10px;
-    margin: 3px;
-    width: 83%;
-    border: none;
-    background-color: #9cdee2;
+    width: 85%;
+    background-color: #83cecb;
 }
 
 i {
     font-size: 24px;
-    padding: 8px;
-    color: white;
+    padding: 10px 8px 8px 8px;
+    color: rgb(11, 43, 70);
 }
 
 #entrar {
@@ -76,10 +68,12 @@ i {
     color: white;
     font-size: 15px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #entrar:hover {
     background-color: #3e7b80;
+    cursor: pointer;
 }
 
 a {
